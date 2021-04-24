@@ -124,10 +124,49 @@
             </li>
         </br>
             <li>
-
+                <h3> Text Area - Mensajes </h3>
+                <p> Como su nombre lo indica, es colocar un campo que le permita
+                    al usuario escribir con libertad sobre lo que prefiera. Ex:</p>
+                <form>
+                    <label for=""> Escriba su opinión: </label>
+                            <div>
+                                <textarea name="" id="" cols="30" rows=""></textarea>
+                            </div>
+                <form>
             </li>
         </ul>
-    
+    <h4> Atajos adicionales: </h4>
+
+    <ul>
+        <li>
+            <h3> Placeholder, Autocomplete, Number & Required:</h3>
+            <p> Elementos que me permiten modificar hasta cierto punto lo campos
+                proporcionados al usuario. Placeholder me da un texto provisional hasta
+                que el campo tenga interacción con el usuario final. Autocomplete tiene 
+                la información de experiencias pasadas de navegación, y required es para que 
+                se apliquen la resticción de que ese campo debe ser NECESARIAMENTE llenado. 
+                Por otro lado, number es cuando se bloquea al usuario de usar un teclado que
+                no sea numérico. Ex:
+            </p>
+         <form autocomplete ="on">
+            <label for =""> Ingrese su DNI: </label>
+            <input 
+            type= "number" id="" 
+            placeholder= "Soy el placeholder" 
+            required
+            maxlength="7">
+            <label for="nombre"> Nombre:</label>
+            <input type="text" id="nombre">
+         </form>
+        </li>
+    </br>
+        <li>
+            <h3> Disabled: </h3>
+            <p> Bloquea un campo para que el usuario no pueda interactuar con el. Ex:</p>
+            <label for="apellido"> Apellido:</label>
+            <input type="text" id="ape" disabled>
+        </li>
+    </ul>
 
 
 
@@ -145,6 +184,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(64, 64, 64);
         margin: 40px;}
+    h2 {
+        color: rgb(115, 208, 171);}
+    h3 {
+        color: rgb(198, 167, 218);}
+    h4 {
+        color: rgb(85, 186, 182);}
         
     
 </style>
