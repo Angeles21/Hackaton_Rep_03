@@ -4,220 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ejercicio </title>
+    <title> Main </title>
 </head>
-<!-- STYLES -->
-
 <style>
-      body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: whitesmoke;
-            background-color: rgb(54, 54, 54);}
-        p{
-            text-align: center;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        
-        h2{
-            text-align: center;
-            
-        }
-
-        .div4 {
-        background-color: #a893b1;}
-    
-      .responsive {
-            max-width: 100%;
-            height: auto;}
-        
-      .flotext h2{
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 40px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;}
-        
-      .flotext span{
-            position: absolute;
-            top: 40%;
-            left: 30%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 25px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;}
-        
-       .button {
-            position: absolute;
-            transform: translate(40%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            color: black;
-            border: none;
-            font-size: 16px;
-            padding: 12px 24px;
-            border-radius: 5px;
-            text-align: center;}
-        
-        .myGallery {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));}
-    
-       .myGallery img {
-            width: 100%;}
-    
-       .myGallery2 {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));}
-    
-       .myGallery2 img {
-            width: 100%;}
-        
-        .parent {
-            padding: 30px;}
-
-        .inline-block-child {
-            display: inline-block;
-            padding-right: 70px;}
-
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(199, 199, 199);
+        background-color: rgb(54, 54, 54);
+        padding-left: 40px;}
         
 </style>
 
-<!-- CODE STARTS -->
-
 <body>
-
-    <!-- Cabecera-->
-    <div>
-        <img src="https://i2.wp.com/wallur.com/wp-content/uploads/2016/12/yugioh-background-4.jpg?fit=1920%2C1080" class ="responsive">
-             <div class="flotext">
-             <h2> Pachaqtec </h2>
-                 <span> Hola, mi nombre es Sebastian Yabiku.</span>
-             </div> 
-    </div>
-
-     <!-- Sobre mi-->
-   <main>
-    <div class="div1"> 
-        <h2 style="text-align: center;"> Sobre mi </h2>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quae illum rem dolorem voluptatem rerum, 
-        nobis earum quod. Sequi nostrum mollitia dolorem eius neque reiciendis vero ducimus totam libero ad!
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quae illum rem dolorem voluptatem rerum, 
-        nobis earum quod. Sequi nostrum mollitia dolorem eius neque reiciendis vero ducimus totam libero ad!</p>
-    </br>
-        <button class="button" >Ver mi CV</button>
-    </br>
-    </div>
-   </main>
-   </br> 
-
-   <!-- Mis Skills -->
-   <h2 style="text-align: center;"> Mis Skills </h2>
-   <div class= "div2" style=" padding-top: 40px; padding-bottom: 40px; padding-left: 20px; display: inline-block;">
-       <h3> HTML </h3>
-       <progress value="0.40">40%</progress>
-       <h3> Javascript </h3>
-       <progress value="0.40">40%</progress>
-       <h3> Flexbox </h3>
-       <progress value="0.40">40%</progress>
-    </div>
-    <div class ="div2" style=" padding-top: 40px; padding-bottom: 40px; padding-left: 20px; display: inline-block;">
-       <h3> CSSL </h3>
-       <progress value="0.40">40%</progress>
-       <h3> Vue </h3>
-       <progress value="0.40">40%</progress>
-       <h3> Css Grid </h3>
-       <progress value="0.40">40%</progress>
-   </div>
-   </br> 
-
-   <!-- Portafolio-->
-
-   <h2> Portfolio</h2>
- 
-   <div class="myGallery" style="padding: 20px;">
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-    </div>
-
-    <div class="myGallery2"style="padding: 20px;">
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-        <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/12/22/562151/7c79adf9edd54b7935e61e9c5096b54a-700.jpg" />
-    </div>
-    </br>
-
-    <!-- Clientes -->
-    <div class="div3" style="padding-top: 20px; padding-bottom: 40px; text-align: center;">
-        <h2> Clientes </h2>
-
-    <div>
-       
-        <div class='parent'>
-            <div class='child inline-block-child'>
-                <img src="https://i.pinimg.com/originals/27/e0/4d/27e04da5ae7c32ffd9b53b3cc9ae1978.png" width="200px" >
-                    </div>
-            <div class='child inline-block-child'>
-                <img src="https://i.pinimg.com/originals/27/e0/4d/27e04da5ae7c32ffd9b53b3cc9ae1978.png" width="200px" >
-                    </div>
-            <div class='child inline-block-child'>
-                <img src="https://i.pinimg.com/originals/27/e0/4d/27e04da5ae7c32ffd9b53b3cc9ae1978.png" width="200px" >
-                    </div>
-            <div class='child inline-block-child'>
-                <img src="https://i.pinimg.com/originals/27/e0/4d/27e04da5ae7c32ffd9b53b3cc9ae1978.png" width="200px" >
-                    </div>
-            </div>
-
-    </div>
+    <h1> Index </h1>
     
-    </br>
-
-   <!-- Form -->
-   <div class="div4"style="padding: 20px;"> 
-   <h2> Contacto </h2>
-
-     <div> 
-        <form style="display: inline-block;">
-            <label for="nombre"> </label>
-           <input 
-            type="text" 
-            id="name" 
-            placeholder="Nombre">
-
-            <label for="nombre"></label>
-            <input 
-            type="text" 
-            id="phone" 
-            placeholder="Apellido">
-
-           </br> </br> 
-
-           <label for="nombre"> </label>
-           <input 
-           type="e-mail" 
-           id="name" 
-           placeholder="E-mail">
-
-          <label for="nombre"> </label>
-          <input 
-           type="number" 
-           id="name" 
-           placeholder="Telefono">
-           
-          </br> </br> 
-
-          <textarea name="" id="" cols="30" rows="" placeholder="Mensaje"></textarea>
-          </br> </br>
-          <input type="submit" value="Enviar">
-       </form>
-    </div>
-    </div> 
- 
+    <ul>
+        <li>
+            <h2> Tags Form HTML </h2>
+            <button class="button"><a href="/tags-form.html"> Click aquí!</a></button>
+        </li>
+        <li>
+            <h2> Form HTML </h2>
+            <button class="button"><a href="/form.html"> Click aquí!</a></button>
+        </li>
+        <li>
+            <h2> Feature HTML  </h2>
+            <button class="button"><a href="/figma.html"> Click aquí!</a></button>
+        </li>
+    </ul>
 </body>
 </html>
