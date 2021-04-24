@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombres:</label>
+        <input onkeypress="return /[a-z]/i.test(event.key)" >
+        <br><br>
+        <label for="apellido"> Apellidos:</label>
+        <input onkeypress="return /[a-z]/i.test(event.key)" >
+        <br><br>
+
+        <label for="edad"> Edad:</label>
+        <input type="number" id="age" min="18" max="80">
+        <br><br>
+
+        <h3> Introduzca su género:</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Masculino </label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> Femenino</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Otro</label>
+        <br><br>
+
+        <label for="DNI"> Ingrese su DNI: </label> 
+        <input type="text" name="codigo" size="8" maxlength="8">
+        <br><br>
+
+        <label for="email"> E-mail:</label>
+        <input type="email" id="email" placeholder="minombre@gmail.com"">
+        <br><br>
+
+
+        
+
+
+
+
+
+
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
